@@ -3,7 +3,6 @@ from pages.registration_page import RegistrationPage
 from pages.dashboard_page import DashboardPage
 
 
-
 @pytest.mark.regression
 @pytest.mark.registration
 @pytest.mark.parametrize(
