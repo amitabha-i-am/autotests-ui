@@ -16,6 +16,7 @@ from tools.routes import AppRoute
 
 @pytest.mark.regression
 @pytest.mark.authorization
+@pytest.mark.xdist_group(name="authorization-group")
 @allure.tag(AllureTag.REGRESSION, AllureTag.AUTHORIZATION)
 @allure.epic(AllureEpic.LMS) # Добавили epic
 @allure.feature(AllureFeature.AUTHENTICATION) # Добавили feature
